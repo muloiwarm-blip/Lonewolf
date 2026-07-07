@@ -19,118 +19,109 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
   <Hero
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/arthelokyo/astrowind',
+        text: 'View Portfolio',
+        href: 'https://myhublot.online',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:briefcase',
       },
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'Retro Hub Hero Image' }}
   >
     <Fragment slot="title">
       Free template for <span class="hidden xl:inline">showcasing my digital world</span>
-      <span class="text-accent dark:text-white"> And digital solutions</span> + Tailwind CSS
+      <span class="text-accent dark:text-white"> And digital solutions</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Your gateway to digital marketing and creative web design</span>Your gateway to digital marketing and creative web design+
-        </span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
+        <span class="font-semibold">Your gateway to digital marketing and creative web design.</span>
+      </span>
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">RetroHub: Production-ready.</span>
       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages & Blogs.
     </Fragment>
   </Hero>
 
-  <!-- Note Widget ******************* -->
-
-  <Note title="Philosophy:" description="Simplicity, Best Practices and High Performance" />
-
-  <!-- Features Widget *************** -->
+  <Note title="Philosophy:" description="Simplicity, High Performance, and Data-Driven Marketing" />
 
   <Features
     id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022, 2023, 2024 and 2025."
+    tagline="Capabilities"
+    title="Digital Marketing & Web Development"
+    subtitle="A comprehensive portfolio highlighting technical project management and affiliate promotion."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Technical Project Management',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility. Now powered by Tailwind CSS v4.',
-        icon: 'tabler:brand-tailwind',
+          'Structuring and configuring GitHub repositories for professional websites, ensuring clean code and seamless deployment.',
+        icon: 'tabler:brand-github',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Affiliate Marketing Campaigns',
         description:
-          'Widgets made with Tailwind CSS v4 ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
+          'Deploying highly optimized landing pages for top-converting ClickBank and Amazon Associates products like Sleeplean and Joint Genesis.',
+        icon: 'tabler:target',
       },
       {
-        title: 'Best Practices',
+        title: 'E-commerce Solutions',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
+          'Building and managing dynamic storefronts on Shopify, optimizing the user journey to maximize conversion rates.',
+        icon: 'tabler:shopping-cart',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Dropshipping Logistics',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
+          'Coordinating complex supply chains using platforms like CJdropshipping and Alibaba to ensure efficient product sourcing and delivery.',
+        icon: 'tabler:truck',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Social Media Advertising',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
+          'Engineering short-form video scripts and dynamic ads targeted for high engagement across TikTok and Pinterest.',
+        icon: 'tabler:brand-tiktok',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'AI-Driven Content Creation',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
+          'Leveraging generative AI models and machine learning platforms to edit media, generate copy, and scale digital workflows.',
+        icon: 'tabler:robot',
       },
     ]}
   />
 
-  <!-- Content Widget **************** -->
-
   <Content
     isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    tagline="Inside the Repository"
+    title="Omnihub's Blueprint: Precision Meets Functionality"
     items={[
       {
-        title: 'Built on top of Astro v6',
+        title: 'Foundational Web Development',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'Architecting robust project structures utilizing standardized index.html, style.css, and script.js files.',
       },
       {
-        title: 'Styled using Tailwind CSS v4',
+        title: 'Custom Theming',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          'Applying a distinct Retro Hub aesthetic to stand out in the digital landscape while maintaining professional UX/UI standards.',
       },
       {
         title: 'Cross-browser compatibility',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          'Ensuring landing pages look and function consistently across various web browsers, delivering a seamless experience for potential leads.',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
+      src: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2072&q=80',
+      alt: 'Coding Environment',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
+      Gain a competitive advantage by incorporating industry leading practices in web deployment.
     </Fragment>
 
     <Fragment slot="bg">
@@ -138,171 +129,111 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
-
   <Content
     isAfterContent
     items={[
       {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
+        title: 'Rapid Landing Page Deployment',
+        description: `Quickly rolling out optimized funnels to capture traffic for high-ticket affiliate offers, saving time and testing fast.`,
       },
       {
         title: 'Multiple layout possibilities',
         description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
+          'Exploring various structure options for product pages to find what best drives user engagement and clicks.',
       },
       {
         title: 'Fully responsive design',
         description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
+          "Ensuring optimal ad performance on mobile devices, which is critical for TikTok and Pinterest traffic.",
       },
       {
         title: 'Integration of media',
         description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
+          'Seamlessly incorporating video ads and AI-generated imagery that enhance product appeal and engage visitors effectively.',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Blueprint Image',
+      src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Analytics Dashboard',
     }}
   >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
+    <Fragment slot="content">Ensure your digital campaigns yield maximum ROI.</Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: 'Enhanced user engagement',
-        description:
-          'Captivate your audience with interactive elements, intuitive navigation, and visually appealing layouts, encouraging longer visits.',
-      },
-      {
-        title: 'Continuous improvement',
-        description:
-          'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
-      },
-      {
-        title: 'Time and resource efficiency',
-        description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with AstroWind.',
-      },
-      {
-        title: 'Community support',
-        description: `Join the growing AstroWind community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
-    }}
-  >
-    <Fragment slot="content">Designed to foster growth and success.</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+    title="From concept to live domain in three streamlined steps."
     items={[
       {
-        title: 'Step 1: <span class="font-medium">Download</span>',
+        title: 'Step 1: <span class="font-medium">Repository Setup</span>',
         description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-        icon: 'tabler:package',
+          "Initialize the Omnihub repository on GitHub. Establish the core directory structure and version control to lay a solid foundation for the Retro Hub portfolio.",
+        icon: 'tabler:brand-github',
       },
       {
-        title: 'Step 2: <span class="font-medium">Add content</span>',
+        title: 'Step 2: <span class="font-medium">Code Configuration</span>',
         description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-        icon: 'tabler:letter-case',
+          "Develop and link the index.html, style.css, and script.js files. Integrate responsive design frameworks and optimize the assets for high performance.",
+        icon: 'tabler:code',
       },
       {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
+        title: 'Step 3: <span class="font-medium">Domain Deployment</span>',
         description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
+          'Connect the configured repository to the myhublot.online domain. Execute automated build workflows and push the site live to the web.',
+        icon: 'tabler:world-www',
       },
       {
-        title: 'Ready!',
+        title: 'Live!',
         icon: 'tabler:check',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      src: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Code Editor',
     }}
   />
 
-  <!-- Features2 Widget ************** -->
-
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS v4"
-    tagline="Components"
+    title="Marketing & E-commerce Assets"
+    subtitle="Core components utilized to drive traffic, convert leads, and manage online storefronts."
+    tagline="Toolkit"
     items={[
       {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
+        title: 'High-Converting Landing Pages',
+        description: "Directing traffic efficiently. Built specifically to capture leads for ClickBank products.",
+        icon: 'tabler:layout-dashboard',
       },
       {
-        title: 'Heros',
+        title: 'TikTok & Pinterest Video Ads',
         description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
+          "Short-form, engaging content designed to stop the scroll and drive immediate clicks to affiliate offers.",
+        icon: 'tabler:device-mobile',
       },
       {
-        title: 'Features',
+        title: 'Alibaba & CJdropshipping Integration',
         description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
+          'Connecting reliable international suppliers directly to the storefront for seamless order fulfillment.',
+        icon: 'tabler:package-export',
       },
       {
-        title: 'Content',
+        title: 'MyStreet & Co Shopify Storefront',
         description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
+          "A fully managed e-commerce environment optimized for dropshipping, customer retention, and scalable growth.",
+        icon: 'tabler:building-store',
       },
       {
-        title: 'Call-to-Action',
+        title: 'Amazon Associates Campaigns',
         description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
+          'Strategic placement of affiliate links within content to generate passive revenue streams.',
+        icon: 'tabler:currency-dollar',
       },
       {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
+        title: 'AI Prompt Engineering',
+        description: 'Utilizing Gemini and Vertex AI to generate ad copy, test models, and streamline digital tasks.',
+        icon: 'tabler:brain',
       },
     ]}
   >
@@ -311,88 +242,66 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  <!-- HighlightedPosts Widget ******* -->
-
   <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro v6 + Tailwind CSS v4.
-                        Astro is a very interesting technology. Thanks.
-                `}
+    title="Insights from the Omnihub"
+    information={`Explore the technical documentation detailing the setup of the Omnihub repository. Learn about the seamless integration of custom HTML/CSS frameworks and the deployment process to the myhublot.online domain.`}
   />
-
-  <!-- FAQs Widget ******************* -->
 
   <FAQs
     title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
+    subtitle="Common inquiries regarding our dropshipping logistics, affiliate marketing strategies, and web development processes."
     tagline="FAQs"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: 'Why AstroWind?',
+        title: 'How do you source products for the Shopify store?',
         description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+          "We leverage direct integrations with CJdropshipping and Alibaba. This allows us to identify trending products, negotiate with suppliers, and establish a reliable supply chain that feeds directly into the MyStreet & Co storefront.",
       },
       {
-        title: 'What do I need to start?',
+        title: 'What is the strategy for promoting ClickBank products?',
         description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+          'For high-ticket health products like Sleeplean and Joint Genesis, we engineer engaging short-form video ads tailored for TikTok and Pinterest. These ads drive targeted traffic to custom-built landing pages designed strictly for high conversion.',
       },
       {
-        title: 'How to install the Astro + Tailwind CSS template?',
+        title: 'What are the expected shipping timelines for dropshipped orders?',
         description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
+          "Shipping times vary based on the supplier and destination. By utilizing CJdropshipping's global warehouses and prioritized ePacket lines, we aim to reduce standard international transit times to improve customer satisfaction.",
       },
       {
-        title: "What's something that you don't understand?",
+        title: 'What is the return policy for MyStreet & Co?',
         description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-      },
-      {
-        title: 'What is something that you would like to try again?',
-        description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+          "We maintain a clear and compliant return policy mapped to our suppliers' terms. Customers are provided with dedicated support channels to resolve any disputes, process refunds, or handle replacements efficiently.",
       },
     ]}
   />
-
-  <!-- Stats Widget ****************** -->
 
   <Stats
     stats={[
-      { title: 'Downloads', amount: '132K' },
-      { title: 'Stars', amount: '24.8K' },
-      { title: 'Forks', amount: '10.3K' },
-      { title: 'Users', amount: '48.4K' },
+      { title: 'TikTok Ad Views', amount: '250K+' },
+      { title: 'Pinterest Impressions', amount: '1.2M' },
+      { title: 'ClickBank Conversions', amount: '48%' },
+      { title: 'GitHub Commits', amount: '342' },
     ]}
   />
-
-  <!-- CallToAction Widget *********** -->
 
   <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/arthelokyo/astrowind',
+        text: 'View Retro Hub Portfolio',
+        href: 'https://myhublot.online',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:external-link',
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Explore the&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Digital World</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      Ready to see these digital marketing and web development strategies in action? <br class="hidden md:inline" />Visit the live domain today.
     </Fragment>
   </CallToAction>
 </Layout>
